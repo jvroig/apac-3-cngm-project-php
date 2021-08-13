@@ -1,4 +1,4 @@
-FROM php:7.4-apache
+FROM webdevops/php-nginx
 WORKDIR /var/www/html
 
 COPY index.php index.php
