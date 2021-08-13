@@ -1,4 +1,4 @@
-FROM quay.io/centos7/httpd-24-centos7
+FROM quay.io/centos/centos
 USER root
 WORKDIR /var/www/html
 
